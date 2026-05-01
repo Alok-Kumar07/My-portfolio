@@ -78,11 +78,11 @@ export default function Contact() {
             <div className="form-row">
               <div className="form-group">
                 <label>Your Name</label>
-                <input type="text" name="name" value={form.name} onChange={handleChange} placeholder="John Doe" required />
+                <input type="text" name="name" value={form.name} onChange={handleChange} placeholder="Enter Your Name" required />
               </div>
               <div className="form-group">
                 <label>Email Address</label>
-                <input type="email" name="email" value={form.email} onChange={handleChange} placeholder="john@example.com" required />
+                <input type="email" name="email" value={form.email} onChange={handleChange} placeholder="Enter Your Email" required />
               </div>
             </div>
             <div className="form-group">
