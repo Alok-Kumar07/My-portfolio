@@ -1,0 +1,6 @@
+Place your project screenshots and videos here.
+Supported: .png, .jpg, .webp, .mp4, .webm
+
+Reference them in portfolioData.js like:
+  images: ["/projects/myapp.png"],
+  video: "/projects/demo.mp4"
